@@ -23,6 +23,7 @@
         android:textSize="20dp"
         android:textStyle="bold"
         app:layout_constrainedWidth="true"
+        app:layout_constraintEnd_toStartOf="@+id/timeStamper"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/ivProfileImage"
         app:layout_constraintTop_toTopOf="parent"
@@ -46,10 +47,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:text="1m"
+        app:layout_constraintBottom_toBottomOf="@id/tvUsername"
         app:layout_constraintBottom_toTopOf="@+id/tvTweetBody"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.961"
-        app:layout_constraintStart_toEndOf="@+id/tvUsername"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.571" />
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
